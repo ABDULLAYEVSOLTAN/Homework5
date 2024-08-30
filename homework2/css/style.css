@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+.main{
+    width: 1200px;
+    height: 800px;
+    background-color: blue;
+    margin-left: 160px;
+}
+.mani{
+    width: inherit;
+    height: 590px;
+    background: red;
+    background-image: url(../img/dijey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bar{
+    width: inherit;
+    height: 70px;
+    background: black;
+    opacity: 0.2;
+    position: relative;
+}
+#div{
+    width: 100%;
+    min-height: 800px;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+    
+#down{
+    width: 113px;
+    color: black;
+    height: 90px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999999999999999999999
+}
+.lorem{
+    width: 96px;
+    height: 50px;
+    background: white;
+    border-radius: 50px;
+    position: absolute;
+    transform: rotate(150deg);
+    top: -4px;
+    left: calc(50% - 116px);
+}
+.lorem2{
+    width: 96px;
+    height: 50px;
+    background: white;
+    border-radius: 235px;
+    position: absolute;
+    transform: rotate(210deg);
+    top: -6px;
+    left: calc(50% - 9px);
+
+}
+#center {
+    width: 100%;
+ min-height: 800px;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 30px;
+}
+#img1 {
+    width: 350px;
+    height: 300px;
+    background-image:url(../img/ai-generated-8685052_1280.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+#img2 {
+    width: 350px;
+    height: 300px;
+    background-image:url(../img/ai-generated-8685053_1280.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 420px;
+}
+#img3 {
+    width: 350px;
+    height: 300px;
+    background-image:url(../img/ai-generated-8709594_960_720.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 790px;
+}
+#img4 {
+    width: 350px;
+    height: 300px;
+    background-image:url(../img/ai-generated-8971975_960_720.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:450px;
+}
+#img5 {
+    width: 350px;
+    height: 300px;
+    background-image:url(../img/hh.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:450px;
+    left: 420px;
+}
+#img6 {
+    width: 350px;
+    height: 300px;
+    background-image:url(../img/mouse-6909045_1280.webp) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:450px;
+    left: 790px;
+}
+
+#center h1 pre{
+
+}
+
+.mani span{
+    color: white;
+    max-width: 481px;
+    font-size: 14px;
+    position: absolute;
+    top: 265px;
+    left: 519px;
+    text-align: center;
+   
+}
+.euro{
+    width: 74px;
+    border-radius: 50px;
+  height: 75px;
+  background: grey;
+position: absolute;
+top: 310px;
+left: 710px;
+opacity: 0.7;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+button{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: blue;
+    border-radius: 100%;
+}
