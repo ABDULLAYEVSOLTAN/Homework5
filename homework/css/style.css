@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+.main{
+
+    width: 1200px;
+    height: 1000px;
+    background: white;
+    margin-left: 250px;
+    border: solid;
+}
+.zezem{
+    width: 150px;
+    height: 30px;
+    background: #408AD5;
+    color: white;
+    position: relative;
+    left: 138px;
+    border-radius: 50px;
+    top: 30px;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Baskervville SC", serif;
+    padding-bottom: 30px;
+}
+.bar{
+    width: inherit;
+    height: 100px;
+    background-color: white;
+}
+.foto{
+    width: 1100px;
+    height: 900px;
+    background-image: url(../img/hamster-5490235_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+box-shadow: 5px;
+    left: 312px;
+    
+}
+.kicik{
+    width: 604px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 477px;
+    left: 538px;
+}
+.balac{
+    width: 1100px;
+    height: 318px;
+    background-color: white;
+    position: absolute;
+    top: 671px;
+    left: 313px;
+}
+.n{
+    width: 15px;
+    height: 30px;
+    background-color: purple;
+    position: relative;
+    top: 74px;
+    left:144px;
+}
+.b{
+    width: 10px;
+    height: 30px;
+    background: purple;
+    position: relative;
+    top: 236px;
+    left: 374px;
+}
+.v{
+    width: 10px;
+    height: 30px;
+    background: purple;
+    position: relative;
+    top: 206px;
+    left: 395px;
+}
+.s{
+    width: 15px;
+    height: 30px;
+    background-color: purple;
+    position: relative;
+    top: 212px;
+    left:757px; 
+}
